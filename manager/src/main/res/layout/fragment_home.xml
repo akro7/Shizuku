@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/leg_bg">
+
+    <rikka.widget.borderview.BorderRecyclerView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/rd_activity_horizontal_margin"
+        android:layout_marginEnd="@dimen/rd_activity_horizontal_margin"
+        android:clipToPadding="false"
+        android:paddingStart="@dimen/home_padding"
+        android:paddingTop="?actionBarSize"
+        android:paddingEnd="@dimen/home_padding"
+        android:paddingBottom="8dp"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="vertical"
+        app:borderBottomVisibility="never"
+        app:borderTopDrawable="@null"
+        app:borderTopVisibility="whenTop"
+        app:fitsSystemWindowsInsets="bottom|top" />
+
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="translation_url" translatable="false">https://rikka.app/contribute_translation/</string>
+    <string name="main_navigation_home" translatable="false">Home</string>
+    <string name="main_navigation_superuser" translatable="false">Superuser</string>
+    <string name="main_navigation_settings" translatable="false">Settings</string>
+</resources>

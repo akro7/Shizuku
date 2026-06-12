@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ThemeOverlay"/>
+
+
+    <style name="ThemeOverlay.Black">
+        <item name="android:colorPrimary">@android:color/black</item>
+        <item name="android:colorPrimaryDark">@android:color/black</item>
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="colorSurface">@android:color/black</item>
+    </style>
+
+    <style name="ThemeOverlay.DynamicColors.Light" parent="ThemeOverlay.Material3.DynamicColors.Light.Rikka"/>
+
+    <style name="ThemeOverlay.DynamicColors.Dark" parent="ThemeOverlay.Material3.DynamicColors.Dark.Rikka"/>
+
+    <!-- Dark dialog used for language picker etc -->
+    <style name="LegendaryDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="android:colorBackground">@color/leg_surface</item>
+        <item name="colorSurface">@color/leg_surface</item>
+        <item name="colorOnSurface">@color/leg_text_primary</item>
+        <item name="colorPrimary">@color/leg_accent</item>
+        <item name="android:textColorPrimary">@color/leg_text_primary</item>
+        <item name="android:textColorSecondary">@color/leg_text_secondary</item>
+    </style>
+
+</resources>

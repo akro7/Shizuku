@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.AppTheme.Light" parent="Theme.Material3.Light.Shizuku">
+        <item name="android:statusBarColor">@color/leg_bg</item>
+        <item name="android:navigationBarColor">@color/leg_nav_bg</item>
+        <item name="android:colorBackground">@color/leg_bg</item>
+        <item name="colorSurface">@color/leg_surface</item>
+        <item name="colorSurfaceVariant">@color/leg_card</item>
+        <item name="colorPrimary">@color/leg_accent</item>
+        <item name="colorPrimaryContainer">@color/leg_accent_soft</item>
+        <item name="colorOnPrimaryContainer">@color/leg_accent_glow</item>
+        <item name="appColorPrimary">@color/leg_accent</item>
+        <item name="homeCardStyle">@style/Card.Light</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/LegendaryWindowAnimation</item>
+    </style>
+
+    <style name="Theme.Light" parent="Base.AppTheme.Light" />
+
+    <style name="Base.AppTheme" parent="Theme.Material3.Dark.Shizuku">
+        <item name="android:statusBarColor">@color/leg_bg</item>
+        <item name="android:navigationBarColor">@color/leg_nav_bg</item>
+        <item name="android:colorBackground">@color/leg_bg</item>
+        <item name="colorSurface">@color/leg_surface</item>
+        <item name="colorSurfaceVariant">@color/leg_card</item>
+        <item name="colorPrimary">@color/leg_accent</item>
+        <item name="colorPrimaryContainer">@color/leg_accent_soft</item>
+        <item name="colorOnPrimaryContainer">@color/leg_accent_glow</item>
+        <item name="appColorPrimary">@color/leg_accent</item>
+        <item name="homeCardStyle">@style/Card</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/LegendaryWindowAnimation</item>
+        <!-- Switch color matches accent -->
+        <item name="colorControlActivated">@color/leg_accent</item>
+        <item name="colorSwitchThumbNormal">@color/leg_text_secondary</item>
+    </style>
+
+    <style name="Theme" parent="Base.AppTheme" />
+
+    <!-- Slide animations for all activities -->
+    <style name="LegendaryWindowAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+</resources>

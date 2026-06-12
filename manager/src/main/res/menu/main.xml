@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_check_update"
+        android:title="@string/check_update"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_stop"
+        android:title="@string/action_stop"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_developer_info"
+        android:title="@string/action_developer_info"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/action_about"
+        android:showAsAction="never" />
+
+</menu>

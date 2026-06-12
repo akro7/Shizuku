@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Original refs kept for compatibility -->
+    <color name="notification">#7C5CFC</color>
+    <color name="app_color_light">#7C5CFC</color>
+    <color name="app_color_dark">#9D7FFF</color>
+
+    <!-- ===== LEGENDARY PALETTE ===== -->
+    <!-- Backgrounds - matched to reference image -->
+    <color name="leg_bg">#13102A</color>
+    <color name="leg_surface">#1A1730</color>
+    <color name="leg_card">#201C3A</color>
+    <color name="leg_card_border">#332A5E</color>
+
+    <!-- Primary accent - Purple -->
+    <color name="leg_accent">#7C5CFC</color>
+    <color name="leg_accent_glow">#9D7FFF</color>
+    <color name="leg_accent_deep">#4A2FB5</color>
+    <color name="leg_accent_soft">#267C5CFC</color>
+    <color name="leg_accent_border">#557C5CFC</color>
+
+    <!-- Accent variants per card -->
+    <color name="leg_cyan">#00E5FF</color>
+    <color name="leg_cyan_soft">#2000E5FF</color>
+    <color name="leg_magenta">#CC44EE</color>
+    <color name="leg_magenta_soft">#20CC44EE</color>
+    <color name="leg_green">#00E5A0</color>
+    <color name="leg_green_soft">#2000E5A0</color>
+    <color name="leg_orange">#FF9800</color>
+    <color name="leg_orange_soft">#20FF9800</color>
+    <color name="leg_yellow">#FFD600</color>
+    <color name="leg_yellow_soft">#20FFD600</color>
+
+    <!-- Text aliases used in layouts -->
+    <color name="leg_text">#EEEAF8</color>
+
+    <!-- Text - matched to reference -->
+    <color name="leg_text_primary">#EEEAF8</color>
+    <color name="leg_text_secondary">#9080C0</color>
+    <color name="leg_text_muted">#584E80</color>
+
+    <!-- Divider -->
+    <color name="leg_divider">#1A7C5CFC</color>
+
+    <!-- Bottom Nav - matched to reference -->
+    <color name="leg_nav_bg">#13102A</color>
+    <color name="leg_nav_active_bg">#3D2EAA</color>
+    <!-- Magisk accent colors -->
+    <color name="leg_accent_secondary">#00C853</color>
+    <color name="leg_accent_tertiary">#FF6D00</color>
+    <color name="leg_accent_error">#FF1744</color>
+</resources>

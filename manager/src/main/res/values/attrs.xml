@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="homeCardStyle" format="reference" />
+    <attr name="appColorPrimary" format="reference" />
+
+    <!-- Required by IntegerSimpleMenuPreference - attr only, styleables come from library -->
+    <attr name="simpleMenuPreferenceStyle" format="reference" />
+
+</resources>

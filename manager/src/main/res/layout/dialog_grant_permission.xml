@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="32dp"
+    android:paddingBottom="12dp"
+    android:paddingStart="4dp"
+    android:paddingEnd="4dp">
+
+    <!-- Glow ring behind app icon -->
+    <FrameLayout
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_gravity="center_horizontal">
+
+        <!-- Glow circle background -->
+        <View
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:background="@drawable/dev_glow_circle" />
+
+        <!-- App icon -->
+        <ImageView
+            android:id="@+id/iv_app_icon"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:importantForAccessibility="no" />
+
+    </FrameLayout>
+
+    <!-- Shield / root badge icon -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:text="⭐ Root Access Request"
+        android:textColor="#C084FC"
+        android:textSize="11sp"
+        android:letterSpacing="0.08"
+        android:textStyle="bold" />
+
+    <!-- "Allow <App> to access Shizuku?" -->
+    <TextView
+        android:id="@+id/tv_grant_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingStart="28dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="28dp"
+        android:paddingBottom="6dp"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:lineSpacingMultiplier="1.3" />
+
+    <!-- Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#1A1A3A"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Shizuku button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_grant_shizuku"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/grant_btn_shizuku"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:cornerRadius="14dp" />
+
+    <!-- Shizuku Root button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_grant_shizuku_root"
+        style="@style/Widget.Material3.Button.TonalButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/grant_btn_shizuku_root"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:cornerRadius="14dp" />
+
+    <!-- Deny button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_grant_deny"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/grant_btn_deny"
+        android:textAllCaps="false"
+        android:textColor="?colorError"
+        android:textSize="13sp" />
+
+</LinearLayout>

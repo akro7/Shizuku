@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?homeCardStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp"
+    android:paddingStart="14dp"
+    android:paddingEnd="14dp">
+
+    <ImageView
+        android:id="@android:id/icon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/shape_icon_bg_accent"
+        android:duplicateParentState="true"
+        android:importantForAccessibility="no"
+        android:padding="6dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_learn_more_24dp"
+        android:tint="@color/leg_accent_glow" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="10dp"
+        android:duplicateParentState="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@android:id/text1"
+            style="@style/CardTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:duplicateParentState="true"
+            android:text="@string/home_learn_more_title" />
+
+        <TextView
+            android:id="@android:id/text2"
+            style="@style/CardSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:duplicateParentState="true"
+            android:text="@string/home_learn_more_description" />
+
+    </LinearLayout>
+
+</LinearLayout>

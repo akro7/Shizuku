@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/leg_bg">
+
+    <!-- Fragment container -->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="68dp"
+        android:clipToPadding="false" />
+
+    <!-- Legendary Bottom Navigation (Shizuku V14 style) -->
+    <LinearLayout
+        android:id="@+id/bottom_nav_bar"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/bg_bottom_nav"
+        android:elevation="12dp"
+        android:orientation="horizontal"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp">
+
+        <!-- Home tab - active style -->
+        <TextView
+            android:id="@+id/nav_btn_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_nav_active"
+            android:drawablePadding="6dp"
+            android:drawableStart="@drawable/ic_home_24"
+            android:drawableTint="#FFFFFF"
+            android:gravity="center"
+            android:text="@string/main_navigation_home"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <!-- Superuser / Root tab -->
+        <TextView
+            android:id="@+id/nav_btn_root"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_nav_inactive"
+            android:drawablePadding="6dp"
+            android:drawableStart="@drawable/ic_magisk_root"
+            android:drawableTint="@color/leg_text_secondary"
+            android:gravity="center"
+            android:text="@string/main_navigation_superuser"
+            android:textColor="@color/leg_text_secondary"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <!-- Settings tab -->
+        <TextView
+            android:id="@+id/nav_btn_settings"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_nav_inactive"
+            android:drawablePadding="6dp"
+            android:drawableStart="@drawable/ic_action_settings_24dp"
+            android:drawableTint="@color/leg_text_secondary"
+            android:gravity="center"
+            android:text="@string/main_navigation_settings"
+            android:textColor="@color/leg_text_secondary"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+</FrameLayout>

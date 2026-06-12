@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="?homeCardStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="12dp"
+    android:paddingBottom="10dp"
+    android:paddingStart="12dp"
+    android:paddingEnd="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@android:id/icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/shape_icon_bg_accent"
+            android:duplicateParentState="true"
+            android:importantForAccessibility="no"
+            android:padding="6dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_wadb_24"
+            android:tint="@color/leg_accent_glow" />
+
+        <TextView
+            style="@style/CardTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:text="@string/home_wireless_adb_title" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@android:id/text1"
+        style="@style/CardContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="11sp"
+        tools:text="@string/home_adb_description" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@android:id/button3"
+        style="@style/CardButton"
+        android:text="@string/home_wireless_adb_view_guide_button"
+        android:textSize="11sp"
+        android:minHeight="32dp"
+        app:backgroundTint="@color/leg_accent_soft"
+        app:icon="@drawable/ic_outline_open_in_new_24"
+        app:iconSize="14dp"
+        app:iconTint="@color/leg_accent_glow"
+        app:strokeColor="@color/leg_accent_border"
+        android:textColor="@color/leg_accent_glow" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@android:id/button2"
+        style="@style/CardButton"
+        android:text="@string/adb_pairing"
+        android:textSize="11sp"
+        android:minHeight="32dp"
+        app:backgroundTint="@color/leg_accent_soft"
+        app:icon="@drawable/ic_baseline_link_24"
+        app:iconSize="14dp"
+        app:iconTint="@color/leg_accent_glow"
+        app:strokeColor="@color/leg_accent_border"
+        android:textColor="@color/leg_accent_glow" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@android:id/button1"
+        style="@style/CardButton"
+        android:text="@string/home_root_button_start"
+        android:textSize="11sp"
+        android:minHeight="32dp"
+        app:backgroundTint="@color/leg_accent_soft"
+        app:icon="@drawable/ic_server_start_24dp"
+        app:iconSize="14dp"
+        app:iconTint="@color/leg_accent_glow"
+        app:strokeColor="@color/leg_accent_border"
+        android:textColor="@color/leg_accent_glow" />
+
+</LinearLayout>

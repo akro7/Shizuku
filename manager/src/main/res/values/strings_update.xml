@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Update dialog strings (check_update/checking_update/already_up_to_date/update_check_failed
+     already exist in strings.xml, so only the dialog-specific strings remain here) -->
+<resources>
+    <!-- Update dialog -->
+    <string name="update_dialog_title">Update Available</string>
+    <string name="update_dialog_version">Version %s is ready</string>
+    <string name="update_dialog_no_notes">No release notes provided.</string>
+    <string name="update_dialog_later">Later</string>
+    <string name="update_dialog_install">Update Now</string>
+</resources>

@@ -1,0 +1,6 @@
+# Copy to local.properties and fill in your SDK path
+sdk.dir=/path/to/Android/Sdk
+ndk.dir=/path/to/Android/Sdk/ndk/29.0.13113456
+# Optional: use local API submodule instead of bundled
+# api.useLocal=true
+# api.dir=/path/to/shizuku-api

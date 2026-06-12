@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Hexagon background shape - dark blue -->
+    <path
+        android:fillColor="#1a1560"
+        android:pathData="M85,22 L100,50 L85,78 L55,78 L40,50 L55,22 Z"/>
+
+    <!-- Hexagon border glow -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#6655ee"
+        android:strokeWidth="2"
+        android:pathData="M85,22 L100,50 L85,78 L55,78 L40,50 L55,22 Z"/>
+
+    <!-- Cat face white body -->
+    <path
+        android:fillColor="#ddd8ff"
+        android:pathData="M25,80 Q18,55 30,38 Q38,25 55,24 Q72,23 80,36 Q90,52 83,72 Q78,85 55,88 Q32,87 25,80 Z"/>
+
+    <!-- Left ear -->
+    <path
+        android:fillColor="#ddd8ff"
+        android:pathData="M28,44 L22,26 L38,36 Z"/>
+
+    <!-- Right ear -->
+    <path
+        android:fillColor="#ddd8ff"
+        android:pathData="M72,38 L78,21 L84,38 Z"/>
+
+    <!-- Left eye -->
+    <path
+        android:fillColor="#3a2bb5"
+        android:pathData="M40,58 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"/>
+
+    <!-- Right eye -->
+    <path
+        android:fillColor="#3a2bb5"
+        android:pathData="M62,58 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"/>
+
+    <!-- Left eye shine -->
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M37,55 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0"/>
+
+    <!-- Right eye shine -->
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M59,55 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0"/>
+</vector>
