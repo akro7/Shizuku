@@ -131,10 +131,10 @@
         <item name="cornerSize">50%</item>
     </style>
 
-</resources>
 
     <!-- SimpleMenuPreference stubs - actual implementation in rikka library -->
     <style name="Preference.SimpleMenuPreference" parent="@style/Preference" />
     <style name="Widget.Preference.SimpleMenuPreference.PopupMenu" parent="@android:style/Widget.PopupMenu" />
     <style name="ThemeOverlay.Preference.SimpleMenuPreference.PopupMenu" parent="" />
 
+</resources>
